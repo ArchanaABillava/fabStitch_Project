@@ -9,16 +9,7 @@ export class NavComponent implements OnInit {
 
   constructor() { }
   
-  
-  prod:products=new products();
-  prod_array:string[]=['blue','shadow']
   ngOnInit(): void {
   }
 
-}
-class products
-{
-  blue:boolean=true;
-  shadow:boolean=true;
-  size:boolean=true;
 }

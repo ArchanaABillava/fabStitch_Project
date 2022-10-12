@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/* Carousel Part Styling */
+img {
+    height: 600px;
+  }
+  .blue
+{
+  color:rgb(7, 107, 75);
+}
+.shadow
+{
+  text-shadow: 3px 2px 2px rgb(254, 255, 255);
+}
+.grp{
+    background-color: aqua;
+
+}
+h1{
+    
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 5em;
+    color: rgb(121, 209, 155);
+    position: absolute;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+}
+
+/* Banner section styling*/
+#banner{
+    background-image: linear-gradient(to right,#4ad4af,#4ad4af);
+    color:white;
+    padding-top:2% ;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 510px;
+    margin-top: 2px;
+    outline-offset: 15px;
+    text-align: center;
+    border-radius: 15px;
+    width: 500px;
+    height:60px;
+    text-align:center;
+    background-color:orange;
+    color:white;
+    border:1px solid transparent; 
+}
+.works{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    text-align: center;
+    color:#1abc9c;
+    background-color: rgb(222, 222, 222)
+}
+.news{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    text-align: center;
+    color:#1abc9c;
+    background-color: rgb(222, 222, 222)
+}
+.promo-title2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 500px;
+    margin-top: 2px;
+    outline-offset: 15px;
+    text-align: center;
+    border-radius: 15px;
+    width: 500px;
+    height:60px;
+    color:white;
+    border:1px solid transparent; 
+}
+#service
+{
+    padding: 80px 0;
+}
+.service-img
+{
+    width:100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.des
+{
+    font-size: medium;
+}
+.services
+{
+    padding: 20px;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: #1abc9c;
+}
+#feedback{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.feedback
+{
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+/*--------SOCIAL MEDIA SECTION--------*/
+
+#social-media{
+    background: #04ab89;
+    padding-left: 150px ;
+}
+
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    margin-left: 50x;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
